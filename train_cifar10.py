@@ -154,7 +154,6 @@ list_loss = []
 
 for epoch in range(start_epoch, start_epoch+500000000):
     trainloss = train(epoch)
-    test(epoch)
     
     list_loss.append(trainloss)
     #print(list_loss)
